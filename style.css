@@ -5,6 +5,19 @@ body {
   overflow: hidden;
 }
 
+.tekst {
+  border: 1px solid #FFF;
+  width: 200%;
+}
+
+h4 {
+  text-align: center;
+}
+
+h6{
+  text-align: right;
+}
+
 .fade {
   position: relative;
   width: 100%;
@@ -32,7 +45,7 @@ body {
   position: relative;
   top: 9999px;
   transform-origin: 50% 100%;
-  animation: crawl 60s linear;
+  animation: crawl 6s infinite linear;
 }
 
 .crawl > .title {
